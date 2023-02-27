@@ -13,18 +13,30 @@
         <div class="col-md-4">
           <label for="first-name-input" class="form-label">First Name </label>
           <input required type="text" class="form-control" id="first-name-input">
+          <div class="valid-feedback">
+            First name required!
+          </div>
         </div>
         <div class="col-md-4">
           <label for="last-name-input" class="form-label">Last Name</label>
           <input required type="text" class="form-control" id="last-name-input">
+          <div class="valid-feedback">
+            Lats name required!
+          </div>
         </div>
         <div class="col-md-4">
             <label for="email-input" class="form-label">Email Address</label>
             <input required type="email" class="form-control" id="email-input">
+            <div class="valid-feedback">
+                Email required!
+              </div>
         </div>
         <div class="col-md-6">
             <label for="college-input" class="form-label">College</label>
             <input required type="text" class="form-control" id="college-input">
+            <div class="valid-feedback">
+                Please provide a vaild college.
+              </div>
         </div>
         <div class="col-md-3">
             <!-- <label  for="autoSizingSelect">Graduation Year</label> -->
@@ -36,10 +48,16 @@
               <option value="3">2022</option>
               <option value="4">2023</option>
             </select>
+            <div class="valid-feedback">
+                Please provide a vaild Graduation Year.
+              </div>
           </div>
           <div class="col-md-3">
-            <label for="roll-no-input" class="form-label">Roll No</label>
-            <input required type="number" class="form-control" id="roll-no-input">
+            <label for="roll-no-input" class="form-label">Roll No.</label>
+            <input required type="text" class="form-control" id="roll-no-input">
+            <div class="valid-feedback">
+                Please provide a vaild Roll no.
+              </div>
           </div>
         
         <div class="col-12">
@@ -48,6 +66,9 @@
             <label class="form-check-label" for="conditions-checkbox">
               Agree to terms and conditions
             </label>
+            <div class="valid-feedback">
+                You must agree before submitting.
+              </div>
           </div>
         </div>
         <div class="col-12">
